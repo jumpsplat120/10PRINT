@@ -12,8 +12,8 @@ end
 function love.draw()
 	local i = 1
 	while i < #slashes do
-	slashes[i]:draw()
-	i = i + 1
+		slashes[i]:draw()
+		i = i + 1
 	end
 end
 
